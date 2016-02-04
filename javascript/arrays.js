@@ -56,7 +56,7 @@ function buildThumbnails() {
     var oilDiv = document.getElementById("oil");
     var watercolorDiv = document.getElementById("watercolor");
 
-    output = "";
+    var output = "";
 
     for (
         var i = 0; i < imageListA.length; i++
@@ -85,6 +85,11 @@ function buildThumbnails() {
     watercolorDiv.innerHTML = output;
 }
 
+window.onload = function()
+{
+    buildThumbnails(); //use or "fire off" this function or invoke
+
+};
 
 
 
