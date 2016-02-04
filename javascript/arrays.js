@@ -87,7 +87,7 @@ function buildThumbnails() {
 
 window.onload = function()
 {
-    buildThumbnails(); //use or "fire off" this function or invoke
+    buildThumbnails();
 
 };
 
